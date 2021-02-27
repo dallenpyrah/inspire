@@ -5,6 +5,7 @@ export default class ToDo{
         this.description = data.description
         this.id = data.id || data._id
         this.completed = data.completed
+        this.taskCount = data.taskCount || 0
     }
 
     get Template(){

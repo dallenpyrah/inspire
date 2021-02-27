@@ -53,6 +53,10 @@ class ToDoService{
             console.error(error)
         }
     }
+
+    revealTasks(){
+
+    }
 }
 
 export const toDoService = new ToDoService();
