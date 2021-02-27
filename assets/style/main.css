@@ -27,9 +27,7 @@
 .text-shadow{
   text-shadow: 1px 1px  rgb(10, 10, 10)!important;
 }
-.text-new{
-font-family: font-family: 'Contrail One', cursive!important;
-}
+
 
 :root {
   --blue: blue;
