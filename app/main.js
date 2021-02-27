@@ -1,3 +1,4 @@
+import ClockController from "./Controllers/ClockController.js";
 import ImagesController from "./Controllers/ImagesController.js";
 import QuotesController from "./Controllers/QuotesController.js";
 import ToDoController from "./Controllers/ToDoController.js";
@@ -14,6 +15,8 @@ class App {
   toDoController = new ToDoController();
 
   imagesController = new ImagesController();
+
+  clockController = new ClockController();
 
 }
 
