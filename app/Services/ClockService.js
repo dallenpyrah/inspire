@@ -14,7 +14,7 @@ class ClockService{
          if (m < 10) { m = "0" + m; }
          if (s < 10) { s = "0" + s; }
          document.getElementById('clock').innerHTML = h + ":" + m + ":" + s + " " + time;
-         if(h > 11){
+         if(time = "pm"){
             document.getElementById('clock-text').innerHTML = "Good Afternoon Dallen"
          }else{
             document.getElementById('clock-text').innerHTML = "Good Morning Dallen"
