@@ -5,6 +5,32 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+.hidden{
+  display: none;
+}
+
+.new {
+  opacity: 0;
+}
+
+.old, .new {
+  transition: opacity 0.5s linear;
+}
+
+.wrap:hover .old {
+  opacity: 1;
+}
+.wrap:hover .new {
+  opacity: 1;
+}
+
+.text-shadow{
+  text-shadow: 1px 1px  rgb(10, 10, 10)!important;
+}
+.text-new{
+font-family: font-family: 'Contrail One', cursive!important;
+}
+
 :root {
   --blue: blue;
   --indigo: indigo;

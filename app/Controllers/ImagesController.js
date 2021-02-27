@@ -8,6 +8,7 @@ function _drawImage(){
     document.getElementById('image').style.backgroundImage = template
     document.getElementById('image').style.backgroundRepeat = "no-repeat"
     document.getElementById('image').style.backgroundSize = "cover"
+    document.getElementById('image').style.opacity = "0.99"
 }
 
 export default class ImagesController{

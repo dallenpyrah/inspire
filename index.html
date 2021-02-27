@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -12,14 +14,13 @@
     <title>Inspire</title>
 </head>
 
-<body id="image">
+<body class="text-new" id="image">
     <header>
         <div class="container-fluid">
             <div class="row justify-content-between">
-                <div class="col-3 m-3 card bg-dark text-white">
-                    <p class="m-2 text-primary">2 To Do's</p>
+                <div class="col-2 shadow-lg m-3 p-3 card bg-dark text-white">
                     <form class="form-inline" name="taskForm" onsubmit="app.toDoController.createTask(event)">
-                        <input type="text" name="description" class="form-control w-50" minLength="3" maxLength="50" placeholder="Task" aria-describedby="helpId"  required>
+                        <input type="text" name="description" class="form-control bg-dark w-50" minLength="3" maxLength="50" placeholder="New Task" aria-describedby="helpId"  required>
                         <button class="btn btn-outline-light ml-2" type="submit">Add Task</button>
                         </form>
                     <div class="row" id="task">
@@ -32,6 +33,14 @@
         </div>
     </header>
     <main>
+        <div class="container-fluid">
+            <div class="row m-5 p-5 justify-content-center">
+                <div class="col-12 text-center text-light">
+                    <h1><span class="badge badge-dark p-3">Goodmorning Dallen, How are you?</span></h1>
+                </div>
+            </div>
+        </div>
+      
     </main>
     <footer>
         <div class="container-fluid">

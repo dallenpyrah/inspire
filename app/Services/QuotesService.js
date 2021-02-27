@@ -17,6 +17,7 @@ class QuotesService{
             console.error(error)
         }
     }
+
 }
 
 export const quotesService = new QuotesService();

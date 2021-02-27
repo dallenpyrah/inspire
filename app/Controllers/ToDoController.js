@@ -12,7 +12,6 @@ export default class ToDoController{
     constructor(){
         console.log("To Do Controller")
         ProxyState.on('toDos', _drawTask)
-        
     }
 
     createTask(event){
