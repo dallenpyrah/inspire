@@ -43,7 +43,7 @@ export default class ToDoController{
 
     revealTasks(){
         document.getElementById('task-card').classList.toggle("hidden")
-        document.getElementById('time-container').classList.toggle('hidden')
+        document.getElementById('time-container').classList.toggle("hidden")
         toDoService.revealTasks()
     }
 }
