@@ -15,9 +15,9 @@ class ClockService{
          if (s < 10) { s = "0" + s; }
          document.getElementById('clock').innerHTML = h + ":" + m + ":" + s + " " + time;
          if(time = "pm"){
-            document.getElementById('clock-text').innerHTML = "Good Afternoon Dallen"
+            document.getElementById('clock-text').innerHTML = "Good Afternoon Dallen!"
          }else{
-            document.getElementById('clock-text').innerHTML = "Good Morning Dallen"
+            document.getElementById('clock-text').innerHTML = "Good Morning Dallen!"
          }
          let t = setInterval(this.startTime, 500);
      }
