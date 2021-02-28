@@ -10,6 +10,10 @@
   display: none!important;
 }
 
+.old{
+  opacity: 1;
+}
+
 .new {
   opacity: 0;
 }
@@ -19,7 +23,7 @@
 }
 
 .wrap:hover .old {
-  opacity: 1;
+  opacity: 0;
 }
 .wrap:hover .new {
   opacity: 1;
