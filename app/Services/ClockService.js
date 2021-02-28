@@ -8,13 +8,13 @@ class ClockService{
          let  m = today.getMinutes();
          let s = today.getSeconds();
          let time = "am"
-         if (h > 11) { time = "pm"; }
+         if (h > 11) { time = "pm";}
          if (h > 12) { h = h-12; }
          if (h == 0) { h = 12; }
          if (m < 10) { m = "0" + m; }
          if (s < 10) { s = "0" + s; }
          document.getElementById('clock').innerHTML = h + ":" + m + ":" + s + " " + time;
-         if(time = "pm"){
+         if(time == "pm"){
             document.getElementById('clock-text').innerHTML = "Good Afternoon Dallen!"
          }else{
             document.getElementById('clock-text').innerHTML = "Good Morning Dallen!"
