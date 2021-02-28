@@ -7,14 +7,16 @@ class ClockService{
         let h = today.getHours();
          let  m = today.getMinutes();
          let s = today.getSeconds();
-         let time = "am"
-         if (h > 11) { time = "pm";}
+         let timeOfDay = "am"
+         if (h > 11) { timeOfDay = "pm";}
          if (h > 12) { h = h-12; }
          if (h == 0) { h = 12; }
+         // @ts-ignore
          if (m < 10) { m = "0" + m; }
+         // @ts-ignore
          if (s < 10) { s = "0" + s; }
-         document.getElementById('clock').innerHTML = h + ":" + m + ":" + s + " " + time;
-         if(time == "pm"){
+         document.getElementById('clock').innerHTML = h + ":" + m + ":" + s + " " + timeOfDay;
+         if(timeOfDay == "pm"){
             document.getElementById('clock-text').innerHTML = "Good Afternoon Dallen!"
          }else{
             document.getElementById('clock-text').innerHTML = "Good Morning Dallen!"
