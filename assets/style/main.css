@@ -10,6 +10,10 @@
   display: none!important;
 }
 
+.font-family{
+  font-family: 'Rubik', sans-serif!important;
+}
+
 .old{
   opacity: 1;
 }
@@ -27,6 +31,10 @@
 }
 .wrap:hover .new {
   opacity: 1;
+}
+
+.border-rounded{
+  border-radius: 15px!important;
 }
 
 .text-shadow{
