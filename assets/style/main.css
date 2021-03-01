@@ -22,7 +22,7 @@
   opacity: 0;
 }
 
-.old, .new {
+.old, .new{
   transition: opacity 0.5s linear;
 }
 

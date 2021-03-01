@@ -14,13 +14,13 @@
     <title>Motivation</title>
 </head>
 
-<body onload="app.clockController.startTime()" class="text-new font-family" id="image">
+<body onload="app.clockController.startTime()" class="text-new font-famil" id="image">
     <header>
         <div class="container-fluid">
             <div class="row justify-content-between">
                 <div class="col-2">
                     <button type="button" onclick="app.toDoController.revealTasks()" class="btn btn-danger shadow-lg mt-3">
-                        To Do's<span id="task-count" class="badge badge-dark ml-2"></span>
+                  To Do's<span id="task-count" class="badge badge-dark ml-2"></span>
                       </button>
                     <div id="task-card" class="shadow-lg p-3 card bg-dark text-white hidden">
                     <form class="form-inline" name="taskForm" onsubmit="app.toDoController.createTask(event)">
@@ -42,10 +42,11 @@
             <div class="row m-5 p-2"></div>
             <div class="row m-5 p-5 justify-content-center">
                 <div class="col-12 mt-5 text-center text-light">
-                    <h1><span id="clock" class="badge border-rounded shadow-lg badge-danger shadow-lg p-3"></span></h1>
+                    <h1><span id="clock" class="badge border-rounded shadow-lg badge-dark text-light shadow-lg p-3"></span></h1>
                 </div>
-                <div class="col-12 text-center text-light">
-                    <h1><span id="clock-text" class="badge border-rounded shadow-lg badge-dark shadow-lg text-danger p-3"></span></h1>
+                <div class="col-12 text-center text-light wrap">
+                    <h1 class=""><span id="clock-text" class="badge border-rounded shadow-lg badge-dark text-danger p-3"></span></h1>
+                    <h1 class="new"><span id="clock-text" class="badge border-rounded shadow-lg badge-dark text-light p-3"><i class="fa fa-check-circle-o mt-1 mr-1" aria-hidden="true"></i> How are <span class="text-warning">you</span> doing <span class="text-warning">today?</span></span></h1>
                 </div>
             </div>
         </div>
