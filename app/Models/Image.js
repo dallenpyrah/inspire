@@ -6,7 +6,7 @@ export default class Image{
 
     get Template(){
         return /*html*/ `
-        url('https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/11/css-gradient.png?fit=1200%2C600&ssl=1')
+        url("https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/11/css-gradient.png?fit=1200%2C600&ssl=1")
         `
     }
 }
