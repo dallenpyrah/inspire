@@ -17,3 +17,4 @@ export default class Image{
 // site: null
 // source_id: 220
 // url: "https://splashbase.s3.amazonaws.com/unsplash/tumblr_n4ef69szs71st5lhmo1_1280.jpg"
+// JUST CHANGE THE FILE GITHUB!
